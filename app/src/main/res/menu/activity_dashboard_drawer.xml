@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_attendance"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_notice"
+            android:title="Notice" />
+        <item
+            android:id="@+id/nav_time_table"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/nav_grades"
+            android:title="Grades" />
+        <item
+            android:id="@+id/nav_teacher"
+            android:title="Teacher" />
+        <item
+            android:id="@+id/nav_holidays"
+            android:title="Event and Holidays" />
+        <item
+            android:id="@+id/nav_exam"
+            android:title="Exam Schedule" />
+
+    </group>
+
+
+</menu>

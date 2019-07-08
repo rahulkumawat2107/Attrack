@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIME TABLE"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:text="Monday"
+                android:layout_width="80dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:layout_column="1" />
+
+            <TextView
+                android:text="ESD Lab                        8:00-10:00                Lab                                  Vinod Kataria"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#003FBF"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="CN                        11:30-12:30                Lecture                                  Bhawna Chaudhary"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_margin="3dp"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+            <TextView
+                android:text="AI                        12:30-1:30                Lecture                                  Rashmi Dadhich"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:text="Tuesday"
+                android:layout_width="80dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:layout_column="1" />
+
+
+            <TextView
+                android:text="AI                         8:00-9:00                Lecture                                  Rashmi Dadhich"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+            <TextView
+                android:text="CGMT                        9:00-10:00                Lecture                                  Poonam Varshney"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="CN                        10:00-11:00                Lecture                                  Bhawna Chaudhary"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="HSS Lab                        11:30-12:30                Lab                                  Nidhi Sharma"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_margin="3dp"
+                android:background="#003FBF"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+            <TextView
+                android:text="TOC                        12:30-1:30                Lecture                                  Girish Sharma"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+            <TextView
+                android:text="DAA                          1:30-2:30                Lecture                                  Shalini Singhal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_margin="3dp"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:text="Wednesday"
+                android:layout_width="80dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:layout_column="1" />
+
+
+            <TextView
+                android:text="AI                         8:00-9:00                Lecture                                  Rashmi Dadhich"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+            <TextView
+                android:text="DAA                        9:00-10:00                Lecture                                  Shalini Singhal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="TOC                        10:00-11:00                Lecture                                  Girish Sharma"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="CGMT Lab                        11:30-1:30                Lab                                  Poonam Varshney"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_margin="3dp"
+                android:background="#003FBF"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:text="Thursday"
+                android:layout_width="80dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:layout_column="1" />
+
+
+            <TextView
+                android:text="DAA                         8:00-9:00                Lecture                                  Shalini Singhal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+            <TextView
+                android:text="CGMT                        9:00-10:00                Lecture                                  Poonam Varshney"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="HSS Lab                        11:30-12:30                Lab                                  Nidhi Sharma"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#003FBF"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="ESD                        12:30-1:30                Lecture                                  Vinod Kataria"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:text="Friday"
+                android:layout_width="80dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:layout_column="1" />
+
+
+            <TextView
+                android:text="TOC                         8:00-9:00                Lecture                                  Girish Sharma"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+            <TextView
+                android:text="ESD                        9:00-10:00                Lecture                                  Vinod Kataria"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="CGMT                        10:00-11:00                Lecture                                  Poonam Varshney"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="JAVA Lab                        11:30-2:30                Lab                                  Pratipal Singh"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_margin="3dp"
+                android:background="#003FBF"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_margin="3dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:text="Saturday"
+                android:layout_width="80dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:layout_column="1" />
+
+            <TextView
+                android:text="DAA Lab                        8:00-11:00                Lab                                  Sushant Kumar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#003FBF"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="CN                        11:30-12:30                Lecture                                  Bhawna Chaudhary"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_margin="3dp"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+            <TextView
+                android:text="ESD                        12:30-1:30                Lecture                                  Vinod Kataria"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03A9F4"
+                android:layout_width="100dp"
+                android:textSize="10dp"
+                android:layout_height="70dp"
+                android:layout_column="2" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
